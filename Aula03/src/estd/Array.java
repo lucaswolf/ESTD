@@ -9,5 +9,4 @@ public class Array {
 
 		System.out.println(i[4]);
 	}
-
 }
