@@ -2,11 +2,12 @@ package estd;
 
 public class Array {
 
-	int i;
-	Integer y = 2;		
-	
-	public void sum (){
-		System.out.println(i+ y);
+	int[] i = { 7, 4, 5, 6 };
+	Integer[] y;
+
+	public void sum() {
+
+		System.out.println(i[4]);
 	}
-	
+
 }
