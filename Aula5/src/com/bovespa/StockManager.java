@@ -9,7 +9,10 @@ public class StockManager {
 	public Stock[] loadStocks(String fileName) throws IOException{
 		Stream<String> lines = Files.lines(Paths.get(fileName));
 		
-		lines.forEach(line -> System.out.println(line));
+		lines.forEach(line ->{
+			System.out.println(line);
+		
+		});
 		
 		return null;
 	}
