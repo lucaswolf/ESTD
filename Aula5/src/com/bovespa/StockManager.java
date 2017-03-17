@@ -11,11 +11,7 @@ public class StockManager {
 		
 		lines.forEach(line ->{
 			System.out.println(line);
-		
-		});
-		
+		});	
 		return null;
 	}
-	
-	
 }
